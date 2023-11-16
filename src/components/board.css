@@ -1,0 +1,11 @@
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.board-box {
+    border: 1px solid white;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
